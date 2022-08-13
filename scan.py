@@ -19,7 +19,7 @@ def banner():
              @Developed by - Mayank Pal                                 |
                            """)
 banner()
-target=input("[+]Enter host or ip adress of the target")
+target=input("[+]Enter hostname or ip adress of the target")
 start_time=time.time()
 try:
     target=socket.gethostbyname(target)
